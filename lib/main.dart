@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mi_card/components/businesscard/businesscard.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
-      ),
-    ),
-  );
+  runApp(BusinessCard());
 }
