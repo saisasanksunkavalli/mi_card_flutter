@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mi_card/components/container/container.dart';
 
 void main() {
-  runApp(BaseApp());
-}
-
-class BaseApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
-      ),
-    );
-  }
+  runApp(BaseContainer());
 }
